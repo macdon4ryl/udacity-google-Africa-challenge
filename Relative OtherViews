@@ -1,0 +1,116 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#FF9800"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/lyla_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#3949AB"
+        android:layout_alignParentLeft="true"
+        android:textSize="24sp"
+        android:textColor="#FFFF"
+        android:textStyle="bold|italic"
+        android:text="Lyla" />
+
+    <TextView
+        android:id="@+id/me_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#3949AB"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/lyla_text_view"
+        android:textColor="#FFFF"
+        android:textStyle="bold|italic"
+        android:textSize="24sp"
+        android:text="Me" />
+
+    <TextView
+        android:id="@+id/natalie_text_view"
+        android:layout_width="wrap_content"
+        android:background="#3949AB"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFF"
+        android:textStyle="bold|italic"
+        android:layout_above="@id/lyla_text_view"
+        android:textSize="24sp"
+        android:text="Natalie" />
+
+    <TextView
+        android:id="@+id/jennie_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#3949AB"
+        android:layout_alignParentBottom="true"
+        android:textColor="#FFFF"
+        android:textStyle="bold|italic"
+        android:layout_alignParentRight="true"
+        android:textSize="24sp"
+        android:text="Jennie" />
+
+    <TextView
+        android:id="@+id/omoju_text_view"
+        android:layout_width="wrap_content"
+        android:background="#3949AB"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:textColor="#FFFF"
+        android:textStyle="bold|italic"
+        android:layout_above="@id/jennie_text_view"
+        android:textSize="24sp"
+        android:text="Omoju" />
+
+    <TextView
+        android:id="@+id/amy_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textColor="#FFFF"
+        android:textStyle="bold|italic"		
+        android:background="#3949AB"
+        android:layout_above="@id/omoju_text_view"
+        android:textSize="24sp"
+        android:text="Amy" />
+
+    <TextView
+        android:id="@+id/ben_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textColor="#FFFF"
+        android:textStyle="bold|italic"
+        android:background="#3949AB"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"
+        android:text="Ben" />
+
+    <TextView
+        android:id="@+id/kunal_text_view"
+        android:layout_width="wrap_content"
+        android:background="#3949AB"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFF"
+        android:textStyle="bold|italic"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@id/ben_text_view"
+        android:textSize="24sp"
+        android:text="Kunal" />
+
+    <TextView
+        android:id="@+id/kagure_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#3949AB"
+        android:layout_alignParentTop="true"
+        android:textColor="#FFFF"
+        android:textStyle="bold|italic"
+        android:layout_toRightOf="@id/ben_text_view"        
+        android:layout_alignParentRight="true"
+        android:textSize="24sp"
+        android:text="Kagure" />
+
+</RelativeLayout>
