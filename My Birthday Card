@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView android:src="@drawable/debby"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"/>
+
+    <ImageView android:src="@drawable/picture2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:maxWidth="100dp"
+        android:maxHeight="100dp"
+        android:scaleType="fitCenter"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="170dp"/>
+
+    <TextView
+        android:id="@+id/hbd"
+        android:text="Happy Birthday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:paddingLeft="14dp"
+        android:paddingRight="20dp"
+        android:paddingTop="55dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:fontFamily="cursive"/>
+
+    <TextView
+        android:text="Deborah Mautin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:paddingLeft="10dp"
+        android:paddingRight="20dp"
+        android:layout_below="@id/hbd"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"/>
+
+    <TextView android:text="From, Victor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:padding="20dp"
+        android:textColor="@android:color/white"
+        android:fontFamily="cursive"
+        android:textStyle="bold"/>
+
+
+</RelativeLayout>
