@@ -1,0 +1,205 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#F0F8FF">
+    <ImageView android:id="@+id/fs"
+        android:src="@drawable/futureskills"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:layout_alignParentTop="true"
+        android:paddingTop="24dp"
+        android:paddingBottom="24dp"        />
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="353dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fs"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="36dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/udacity" />
+    <ImageView
+        android:id="@+id/tweet"
+        android:layout_width="22dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fs"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="25dp"
+        android:layout_alignRight="@id/face"
+        android:src="@drawable/twitter50" />
+    <ImageView
+        android:id="@+id/face"
+        android:layout_width="22dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fs"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="25dp"
+        android:layout_alignRight="@id/link"
+        android:src="@drawable/facebook50" />
+    <ImageView
+        android:id="@+id/link"
+        android:layout_width="22dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fs"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="25dp"
+        android:layout_alignRight="@id/medium"
+        android:src="@drawable/linkedin50" />
+    <ImageView
+        android:id="@+id/medium"
+        android:layout_width="22dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fs"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="25dp"
+        android:layout_alignRight="@id/inst"
+        android:src="@drawable/medium50" />
+    <ImageView
+        android:id="@+id/inst"
+        android:layout_width="22dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fs"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="25dp"
+        android:layout_alignRight="@id/google"
+        android:src="@drawable/instagram50" />
+    <ImageView
+        android:id="@+id/google"
+        android:layout_width="22dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fs"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="8dp"
+        android:layout_margin="8dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/googleplus50" />
+    <TextView
+        android:id="@+id/write"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Democratizing education through accessible, flexible and economical world-class online credential program"
+        android:fontFamily="sans-serif"
+        android:layout_below="@id/logo"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="2dp"
+        android:layout_gravity="right"/>
+    <ImageView
+        android:id="@+id/office"
+        android:layout_width="22dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/write"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="16dp"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/office501" />
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/office"
+        android:text="2465 Latham St"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_below="@id/write"
+        android:fontFamily="sans-serif" />
+    <TextView
+        android:id="@+id/rest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mountain View, CA 94043"
+        android:layout_below="@id/address"
+        android:layout_toRightOf="@id/office"
+        android:layout_marginLeft="8dp"
+        android:fontFamily="sans-serif" />
+    <ImageView
+        android:id="@+id/phoneimage"
+        android:layout_width="22dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/office"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="16dp"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/phone501" />
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+1-650-555-5555"
+        android:layout_marginLeft="8dp"
+        android:fontFamily="sans-serif"
+        android:layout_toRightOf="@id/office"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/rest"/>
+    <ImageView
+        android:id="@+id/globe"
+        android:layout_width="22dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phone"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/globe801" />
+    <TextView
+        android:id="@+id/web"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="www.udacity.com"
+        android:layout_marginLeft="8dp"
+        android:fontFamily="sans-serif"
+        android:layout_toRightOf="@id/office"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/phone"/>
+    <ImageView
+        android:id="@+id/emaillogo"
+        android:layout_width="22dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/web"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/letter50" />
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="feedback@udacity.com"
+        android:layout_marginLeft="8dp"
+        android:fontFamily="sans-serif"
+        android:layout_toRightOf="@id/office"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/web"/>
+    <TextView
+        android:id="@+id/slogan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="0dp"
+        android:layout_marginRight="0dp"
+        android:paddingTop="1dp"
+        android:paddingBottom="2dp"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFFFF"
+        android:gravity="right"
+        android:paddingRight="8dp"
+        android:textStyle="bold"
+        android:text="...Learning for the job of today, tomorrow and beyond"
+        android:fontFamily="cursive" />
+        
+</RelativeLayout>
